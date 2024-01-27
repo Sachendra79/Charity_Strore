@@ -12,6 +12,7 @@ import ProtectedRouter from "./ProtectedRouter";
 import Faq from "./Components/Pages/Fq";
 import Upload from "./Components/Pages/upload";
 import UserSection from "./Components/Pages/userSection";
+import Item from "./Components/Pages/Item";
 
 export const loginContext = createContext("");
 function AppRouter() {
@@ -30,6 +31,7 @@ function AppRouter() {
       <Route path="/faq" element={<Faq />} />
       <Route path="/upload" element={<Upload />} />
       <Route path="/userSection" element={<UserSection />} />
+      <Route path="/item" element={<Item/>}/>
     </Routes>
   );
 }
