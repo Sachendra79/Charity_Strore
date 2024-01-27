@@ -1,6 +1,5 @@
 
 import Navbar from "../Navbar"
-import '../language.css';
 import ForgetOption from "./forgetOption"
 
 

@@ -89,7 +89,7 @@ export default function SignUpCard() {
             },
           });
         } else {
-          setClicker(true);
+        
           setLoad(false);
         }
       } catch (error) {
