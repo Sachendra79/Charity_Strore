@@ -14,9 +14,8 @@
   height:100%;
   width: 100vw;
   background-color: #BFE68C;
-  font-family: Abhaya Libre Extrabold;
-  
   overflow-x: hidden;
+  font-family: Abhaya Libre Extrabold;
   
 }
 
@@ -992,4 +991,8 @@ top:15vh;
   
 
  
-    
+    .to{
+      background: rgba(191, 230, 140, 0.60);
+
+
+    }
