@@ -2,8 +2,11 @@ import React from 'react'
 import { IoArrowBackSharp } from "react-icons/io5";
 import water from "../../assets/sofaa.svg"
 import { useNavigate } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 const Item = () => {
     const navigate = useNavigate();
+    const location = useLocation();
+  const { state } = location;
     function clickHandler ()
     {
              navigate("/home")
