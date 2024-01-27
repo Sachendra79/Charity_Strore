@@ -364,7 +364,7 @@
   justify-content: center;
   align-items: center;
   
-  background-color: #141416;
+
   gap: 1.6vh;
 }
 
@@ -409,7 +409,7 @@
   
   align-self: flex-start;
   
-  color: var(--web-tertiary, #C76B98);
+  color: #5A911F;
 text-align: center;
 font-family: 'Prompt', sans-serif;
 font-size: 1rem;
@@ -498,6 +498,9 @@ input:focus{
     
    }
    #otp .welcome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     gap: 0;
     /* padding: 0; */
@@ -753,9 +756,7 @@ input:focus{
     border: 0px;
     
   }
-  .otp-input{
-    background-color: transparent;
-  }
+  
   .loginCard{
     width:100vw;
     height: 50vh;
@@ -825,7 +826,7 @@ input:focus{
    #login .emailText{
     left: 4vh;
     background-color: transparent;
-   }
+}
    
    html{
     font-size: 17px;
@@ -890,7 +891,11 @@ top:15vh;
    
  
   }
- 
+  
+
+
+
+
 
 
   

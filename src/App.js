@@ -9,11 +9,11 @@ function App() {
  
  
   return (
-   <>
+   <div className=" overflow-x-hidden">
  <ToastContainer />
       <AppRouter />
      
-   </>
+   </div>
      
 
   );
