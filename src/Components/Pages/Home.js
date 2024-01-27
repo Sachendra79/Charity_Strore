@@ -22,6 +22,7 @@ import peace from "../../assets/goal16-peace.webp";
 import goals from "../../assets/goal17-partnerships.webp";
 import Logo from "../Authentication/LogoIcon";
 import Fq from "./Fq";
+import { Link, NavLink } from "react-router-dom";
 
 const Home = () => {
   function clickHandler() {}
@@ -32,18 +33,18 @@ const Home = () => {
         <nav className="">
           <ul>
             <li>
-              <a href="#">Home</a>
+              <NavLink to="/home">Home</NavLink>
             </li>
             <li>
-              <a href="#" class="active">
+              <NavLink to="/about" >
                 About
-              </a>
+              </NavLink>
             </li>
             <li>
-              <a href="#">Profile</a>
+              <NavLink to="/profile">Profile</NavLink>
             </li>
             <li>
-              <a href="#">FAQs</a>
+              <NavLink to="/faq">FAQs</NavLink>
             </li>
           </ul>
         </nav>

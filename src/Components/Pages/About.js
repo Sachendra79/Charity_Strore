@@ -3,12 +3,32 @@ import vision from "../../assets/Rectangle 16.png"
 import approach1 from "../../assets/Rectangle 17.png"
 import approach2 from "../../assets/Rectangle 18.png"
 import process from "../../assets/Rectangle 19.png"
+import Logo from '../Authentication/LogoIcon'
+import { Link } from 'react-router-dom'
 
 const About = () => {
   return (
     <div className='bg-[#fff]'>
-      <div>
-        Navbar
+        <div className="flex justify-between items-center bg-[#daf3b2] pr-[20px] h-[70px]  w-[100vw] pl-[20px]">
+      <Logo/>
+        <nav className="">
+          <ul>
+            <li>
+              <Link to="/home">Home</Link>
+            </li>
+            <li>
+              <Link to="/about" class="active">
+                About
+              </Link>
+            </li>
+            <li>
+              <Link to="/profile">Profile</Link>
+            </li>
+            <li>
+              <Link to="/faq">FAQs</Link>
+            </li>
+          </ul>
+        </nav>
       </div>
 
   <div className=' flex flex-col about-content gap-12 '>

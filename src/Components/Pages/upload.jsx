@@ -3,7 +3,7 @@ import "./Dashboardexisting.css";
 import Rect from "../../../src/assets/Image_02.svg";
 import { useState} from "react";
 import { useNavigate } from "react-router-dom";
-import Path from "../../../src/assets/Path.svg";
+import Path from "../../../src/assets/mingcute_upload-line.png";
 import { useRef } from "react";
 import axios from "../../Api/auth"
 import close from "../../../src/assets/Close_LG.svg"
@@ -44,10 +44,10 @@ export default function Upload() {
     if (file) {
       
       const allowedFormats = [
-        ".mp3",
-        ".wav",
-        ".acc",
-        ".flac",
+        ".png",
+        ".svg",
+        ".jpg",
+        ".jpeg",
         ".wma",
         ".aiff",
         ".pcm",
@@ -218,19 +218,14 @@ export default function Upload() {
   
   return (
     <div className="artistDashboard" >
-      <div className="inside" style={
-       
-        { background: "rgba(0, 0, 0, 0.70)" }
-
-        
-        }>
+      <div className="inside bg-olivedrab" >
         <div className="artistNavPlaceholder"></div>
         <div className="artistNavBar">
           <div>
             Unity<span>Share</span>
           </div>
           <div>
-            Your Karma <span>Cleaner</span>
+            Unleash  <span> Sharing</span>
           </div>
           <div className="btn" onClick={() => Navigation("/upload")}>
             <img></img>Upload
@@ -281,8 +276,8 @@ export default function Upload() {
           <div className="upload1">
             <div>Enter some details of your song</div>
             <div>
-              <input placeholder="Enter song’s title" value={songTitle} onChange={songDataHandler} name="songTitle"></input>
-              <input placeholder="Enter artist’s name" value={songName} onChange={songDataHandler} name="songName"></input>
+              <input placeholder="Enter Item name" value={songTitle} onChange={songDataHandler} name="songTitle"></input>
+              <input placeholder="Enter Your Name" value={songName} onChange={songDataHandler} name="songName"></input>
               <div className="btn" onClick={songDetailsUpdated}>Next</div>
             </div>
             <div  className="uploadLower btn">
@@ -290,7 +285,7 @@ export default function Upload() {
                 setAudioUploaded(false)
                 
               }}></div>
-              <div style={{ background: "#C76B98" }}></div>
+              <div style={{ background: "#95D14A" }}></div>
               <div></div>
               <div></div>
             </div>
@@ -300,18 +295,18 @@ export default function Upload() {
           <div className="upload">
             <div className="uploadUpper">
               <div>
-                <img
+                {/* <img
                   style={{ height: "120px", width: "120px" }}
                   src={Rect}
-                ></img>
-                <div>Upload your music’s poster here</div>
+                ></img> */}
+                <div>Enter your Item description</div>
               </div>
               <div>
               <div className="btn" onClick={openFileDialog} >
                   <input
-                    type="file"
+                    type="text"
                     placeholder="Choose file"
-                    accept=".png, .jgep, .jpg, .webp, .avif, .svg"
+                   
                     onChange={handlePosterChange}
                     ref={fileInputRef}
 
@@ -319,10 +314,9 @@ export default function Upload() {
                   Choose file
                 </div>
                 <div>
-                  Maximum size of 2MB can be uploaded
+                  Don't Forget to add address in desciption
                   <div>
-                    .png, .jgep, .jpg, .webp, .avif, .svg and many more formats
-                    supported.
+                   Your description should be short and upto the point
                   </div>
                 </div>
               </div>
@@ -336,7 +330,7 @@ export default function Upload() {
                 setPosterUploaded(false)
                 
               }} style={{ background: "#C76B98" }}></div>
-              <div style={{ background: "#C76B98" }}></div>
+              <div style={{ background: "#95D14A" }}></div>
               <div></div>
             </div>
           </div>
@@ -363,12 +357,12 @@ export default function Upload() {
               <div  onClick={()=>{
                 setPosterUploaded(false)
                 setSongUploaded(false)
-              }}  style={{ background: "#C76B98" }}></div>
+              }}  style={{ background: "#95D14A" }}></div>
               <div  onClick={()=>{
                 setSongUploaded(false)
                 
-              }}  style={{ background: "#C76B98" }}></div>
-              <div style={{ background: "#C76B98" }}></div>
+              }}  style={{ background: "#fff" }}></div>
+              <div style={{ background: "#95D14A" }}></div>
             </div>
           </div>
         ) : null}
