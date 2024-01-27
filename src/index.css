@@ -13,7 +13,7 @@
  body {
   height:100%;
   width: 100vw;
-  background-color: black;
+  background: #BFE68C; 
 }
 
 #root {
@@ -60,7 +60,7 @@
 }
 
 .logoHeadingEnd {
-  color: var(--web-tertiary, #C76B98);
+  
   font-family: 'Style Script', cursive;
   font-size: 40px;
   font-style: normal;
@@ -99,7 +99,7 @@
   flex-shrink: 0;
   border-radius: 20px;
   border: 1px solid #656565;
-  background: var(--web-2-prim, #141416);
+  background: var(--web-2-prim, #95D14A);
   position: relative;
   top: 14.11vh;
   left: 11.11vw;
@@ -166,7 +166,7 @@
   border-radius: 1.67vw;
   border: 1px solid #FFF;
   background: none;
-  color: #656565;
+  color: #5A911F; 
   padding-left: 6.87%;
   font-size: 1rem;
   color: #FFF;
@@ -199,7 +199,7 @@
   color: #FFF;
   left: 1.8vw;
   bottom: 74%;
-  background-color: #141416;
+  background-color: #95D14A;
   height: 1.94vh;
   white-space: nowrap;
   display: inline-flex;
@@ -268,7 +268,7 @@
   align-self: center;
   display: flex;
   border-radius: 11vw;
-  background: var(--web-tertiary, #C76B98);
+  background: var(--web-tertiary, #5A911F);
   margin-top: 4.5vh;
   width: 90%;
   margin-left: auto;
@@ -440,7 +440,7 @@ letter-spacing: 0.64px;
 .forgetText {
   width: 100%;
   height: 1.7vh;
-  color: var(--web-tertiary, #C76B98);
+  color: #5A911F;
   text-align: end;
   margin-top: 0.8vh;
   font-family: 'Prompt', sans-serif;
@@ -753,7 +753,7 @@ letter-spacing: 0.64px;
   .loginCard{
     width:100vw;
     height: 50vh;
-    background-color: black;
+    background-color: #95D14A;
     left: 0;
     right: 0;
     top: 17vh;
