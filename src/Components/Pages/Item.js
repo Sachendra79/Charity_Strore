@@ -7,9 +7,11 @@ const Item = () => {
     const navigate = useNavigate();
     const location = useLocation();
   const { state } = location;
+  const {item}=state;
+  console.log(item);
     function clickHandler ()
     {
-             navigate("/home")
+             navigate("/list")
     }
   return (
     <div className='flex flex-col justify-evenly w-[90vw] mx-auto gap-5 '>
