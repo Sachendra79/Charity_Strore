@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 
-@import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&family=Style+Script&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Prompt:wght@300&family=Style+Script&display=swap'); */
 * {
   margin: 0;
   padding: 0;
@@ -15,6 +15,7 @@
   width: 100vw;
   background-color: #BFE68C;
   overflow-x: hidden;
+  font-family: Abhaya Libre Extrabold;
   
 }
 
