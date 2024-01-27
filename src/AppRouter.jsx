@@ -7,6 +7,7 @@ import Home from './Components/Pages/Home';
 import Forget from './Components/Authentication/forgetUsername/forget';
 import ProtectedRouter from './ProtectedRouter';
 import About from './Components/Pages/About';
+import Faq from './Components/Pages/Faq';
 
 
 export const loginContext=createContext("");
