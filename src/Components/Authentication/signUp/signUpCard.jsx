@@ -195,9 +195,7 @@ export default function SignUpCard() {
               By creating an account, you agree to accept our Privacy Policy.
             </span>
           </div>
-          <div className="phoneLogin" onClick={() => setEmail(!isEmail)}>
-            {isEmail ? "Sign Up with Phone number?" : "Sign Up with Email."}
-          </div>
+         
           <div className="submitLogin">
             <button
               type={isLoad ? "button" : "submit"}
