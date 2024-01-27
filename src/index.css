@@ -406,7 +406,7 @@
 .resendOtp button {
   background: transparent;
   color: #FFF;
-  border: 1px solid #141416;
+  
   align-self: flex-start;
   
   color: var(--web-tertiary, #C76B98);
