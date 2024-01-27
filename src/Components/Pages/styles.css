@@ -16,12 +16,12 @@ header {
   justify-content: center;
   align: center;
   padding: 15px;
-  background: #95D14A;
+  background: #daf3b2;
   border-bottom: 3px solid #56e388;
 }
 
 header h1 {
-  color: #eee;
+  color: #000;
   font-size: 28px;
   font-weight: 700;
   text-transform: uppercase;

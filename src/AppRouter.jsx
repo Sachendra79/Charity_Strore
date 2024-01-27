@@ -7,7 +7,7 @@ import Home from './Components/Pages/Home';
 import Forget from './Components/Authentication/forgetUsername/forget';
 
 import About from './Components/Pages/About';
-
+import ListPage from "./Components/Pages/List";
 import ProtectedRouter from "./ProtectedRouter";
 import Faq from "./Components/Pages/Fq";
 import Upload from "./Components/Pages/upload";
@@ -25,7 +25,7 @@ function AppRouter() {
       <Route path='/home' element={<Home/>}/>
       <Route path="/forget" element={<Forget />} />
       <Route path="/about" element={<About/>} />
-
+      <Route path="/list" element={<ListPage/>} />
       
       <Route path="/faq" element={<Faq />} />
       <Route path="/upload" element={<Upload />} />
