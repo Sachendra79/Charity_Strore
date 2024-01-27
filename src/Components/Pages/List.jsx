@@ -24,6 +24,15 @@ try{
     }
     getHandler();
     },[])
+    const descriptionHandler = (item) => {
+      navigation({
+        pathname: '/list',
+        state: {
+          item: item
+        }
+      });
+    };
+    
   return (
     <div className=" flex flex-col">
       <div className="w-[100vw] h-[80px] bg-[#E8F6D1] pl-[161px] flex justify-start pt-[10px] gap-[11.04vw]">
@@ -50,7 +59,7 @@ try{
         <div className=" flex gap-[24.62px]">
         {getItem?getItem.map((item,index)=>(
             index <= 3?
-            <div className="to h-[283px] w-[18.15vw] flex flex-col justify-between px-[10px] py-[10px] pb-[20px]">
+            <div className="to h-[283px] w-[18.15vw] flex flex-col justify-between px-[10px] py-[10px] pb-[20px]" onClick={()=>descriptionHandler(item)}>
             <img src={item.image_field} className="w-[100%] h-[205px]" />
             <div className=" text-[#98c361] text-[1.5rem]">Brown Sofa</div>
           </div>:null
