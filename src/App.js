@@ -1,5 +1,4 @@
 
-// import './index.css'
 import { ToastContainer } from "react-toastify";
 
 import AppRouter from "./AppRouter";

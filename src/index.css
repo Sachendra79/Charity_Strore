@@ -14,12 +14,14 @@
   height:100%;
   width: 100vw;
   background-color: #BFE68C;
+  
 }
 
 #root {
 
   overflow-x: hidden;
   width: 100vw;
+  
   
   
 }
@@ -37,6 +39,7 @@
 
 .tryi {
  height: 100%;
+ 
 }
 
 .navBar {
@@ -325,7 +328,7 @@
 .loader {
   margin-left: auto;
   margin-right: auto;
-  border: 5px solid black;
+  border: 5px solid #95D14A ;
   border-top: 5px solid #f0f0f0;
   border-radius: 50%;
   width: 4.8vh;
@@ -403,7 +406,7 @@
 .resendOtp button {
   background: transparent;
   color: #FFF;
-  border: 1px solid #141416;
+  
   align-self: flex-start;
   
   color: #5A911F;
@@ -745,7 +748,7 @@ input:focus{
 @media (max-Width:475px){
   .signUpCard{
     width:100vw;
-    background-color: black;
+    background-color: transparent;
     left: 0;
     right: 0;
     top: 8vh;
@@ -757,7 +760,7 @@ input:focus{
   .loginCard{
     width:100vw;
     height: 50vh;
-    background-color: black;
+    background-color: transparent;
     left: 0;
     right: 0;
     top: 17vh;
@@ -818,12 +821,12 @@ input:focus{
    }
    .emailText{
     left: 4vh;
-    background-color: black;
+    background-color: transparent;
    }
    #login .emailText{
     left: 4vh;
-    background-color: black;
-   }
+    background-color: transparent;
+}
    
    html{
     font-size: 17px;
