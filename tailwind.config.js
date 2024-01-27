@@ -1,11 +1,26 @@
-
-
-
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: [
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+  ],
   theme: {
-    extend: {},
+    extend: {
+    fontFamily: {
+      'ocra': ["OCR A Extended", "sans-serif"],
+    },
+      colors: {
+        'lgr': '#e6e6e6',
+        'dgr': '#b3b3b3',
+        'err': '#FF7E7E',
+        'dkr': '#1a1a1a'
+
+      },
+      screens: {
+        'mob': '485px'
+      }
+    },
   },
   plugins: [],
 }
