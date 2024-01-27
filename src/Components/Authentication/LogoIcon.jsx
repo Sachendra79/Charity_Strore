@@ -4,7 +4,7 @@ export default function Logo(){
     return(
         <>
              <div className="logoHeading btn" >
-        Sound<span className="logoHeadingEnd">ly</span>
+        Unity<span className="logoHeadingEnd">Share</span>
       </div>
         </>
     )

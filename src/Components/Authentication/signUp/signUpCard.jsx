@@ -153,7 +153,7 @@ export default function SignUpCard() {
     <div className="signUpCard">
       <div>
         <form className="signUpFrame" id="signUp" onSubmit={continueHandler}>
-          <div className="welcome">
+          <div className="welcome justify-center">
             <div className="welcomeText">Welcome to</div>
             <div className="try">
               <Logo />
@@ -184,7 +184,7 @@ export default function SignUpCard() {
               value={inputs.username}
               onChange={handleInputChange}
               className="loginField"
-              placeholder="  Username"
+              placeholder="Username"
             />
             <div className="emailText"> Enter Username</div>
           </div>
@@ -195,9 +195,7 @@ export default function SignUpCard() {
               By creating an account, you agree to accept our Privacy Policy.
             </span>
           </div>
-          <div className="phoneLogin" onClick={() => setEmail(!isEmail)}>
-            {isEmail ? "Sign Up with Phone number?" : "Sign Up with Email."}
-          </div>
+        
           <div className="submitLogin">
             <button
               type={isLoad ? "button" : "submit"}
