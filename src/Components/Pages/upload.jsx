@@ -116,7 +116,7 @@ const response = await axios.post("https://auth-api-jexl.onrender.com/category/u
                 <div>
                   Maximum size of 7MB can be uploaded
                   <div>
-                    .png, .svg, .acc, .flac, .wma, .aiff, .pcm and many more
+                    .png, .svg, .acc, .flac, .wma, .aiff,.webp , .pcm and many more
                     formats supported.
                   </div>
                 </div>
