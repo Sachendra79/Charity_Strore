@@ -84,7 +84,7 @@ const About = () => {
        <div className='grid grid-cols-2 mx-auto w-[85vw] bg-[#DAF9C7] h-[52vh] rounded-2xl'>
            <div className='flex items-center'><img className='w-[33vw] h-[45vh] ml-3 rounded-xl' src={process}/></div>
            <div className='flex flex-col gap-5 '>
-            <h1 className='text-[#000] font-bold text-3xl'>Our Process</h1>
+            <h1 className='text-[#000] font-bold text-3xl mt-5'>Our Process</h1>
             <p className='mr-2'>UnityShare is a groundbreaking
              website that empowers users to share a variety of resources,
               promoting community collaboration and sustainability. The platform

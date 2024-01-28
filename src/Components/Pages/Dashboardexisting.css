@@ -12,7 +12,7 @@
     padding-right: 30px;
     flex-direction: column; 
      gap:7.7vh;
-     background:#BFE68C; 
+     background:#fff; 
 }
 .artistNavBar{
     position: fixed;
@@ -129,7 +129,7 @@ background: #fff;
 
     border-radius: 24px;
 border: 1px solid #C0C0C0;
-background: #95D14A;
+background: #d5dacf;
 }
 .listeningSongsDetail{
     width:100%;
@@ -181,7 +181,7 @@ background: #00A64C;
 .listeningSongs hr{
 height:1px;
 color: #3E3E3E;
-background: #3E3E3E;
+background:  #363834;;
 border: #3E3E3E;;
 }
 .upload{
@@ -198,7 +198,7 @@ border: #3E3E3E;;
     gap:12.2vh;
     border-radius: 24px;
 border: 1px solid #C7C7C7;
-background: var(--web-2-prim, #E8F6D1);
+background-color: #363834;
 }
 .uploadUpper{
     width:100%;
@@ -301,7 +301,7 @@ background: #BDBDBD;
     text-align: center;
     border-radius: 24px;
 border: 1px solid #C7C7C7;
-background: var(--web-2-prim, #E8F6D1);
+background-color: #363834;
 color: #FFF;
 
 /* web/Heading/bold/04 */
@@ -444,10 +444,10 @@ line-height: 100%;
     padding: 60px 55px;
     align-items: center;
     gap:7.7vh;
-    
+    background-color: #363834;
     border-radius: 24px;
 border: 1px solid #C7C7C7;
-background:  #141416;
+
 color: #FFF;
 
 

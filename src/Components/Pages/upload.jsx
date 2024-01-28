@@ -159,7 +159,7 @@ const resposnse = await axios.post("https://auth-api-jexl.onrender.com/category/
               </div>
             </div>
             <div className="uploadLower btn">
-              <div onClick={() => {}}></div>
+              <div onClick={() => {}} style={{ background: "#C76B98" }}></div>
               <div style={{ background: "#95D14A" }}></div>
               <div></div>
               <div></div>

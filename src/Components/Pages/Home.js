@@ -22,10 +22,18 @@ import peace from "../../assets/goal16-peace.webp";
 import goals from "../../assets/goal17-partnerships.webp";
 import Logo from "../Authentication/LogoIcon";
 import Fq from "./Fq";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 
 const Home = () => {
-  function clickHandler() {}
+  const navigate = useNavigate();
+  function clickHandler() {
+    navigate("/upload")
+  }
+
+  function clickHandler1() {
+
+    navigate("/list")
+  }
   return (
     <div className="flex flex-col gap-12 ">
       <div className="flex justify-between items-center bg-[#daf3b2] pr-[20px] h-[70px]  w-[100vw] pl-[20px]">
@@ -98,7 +106,7 @@ const Home = () => {
               </div>
               <div className="">
                 <button
-                  onClick={clickHandler}
+                  onClick={clickHandler1}
                   className=" w-60 bg-[#5A911F] hover:cursor-pointer h-10 rounded-lg text-[#fff] font-semibold animate-bounce animate-ping}"
                 >
                   Take It!
