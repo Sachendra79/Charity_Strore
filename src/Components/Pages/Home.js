@@ -1,6 +1,6 @@
 import React from "react";
-import donation from "../../assets/donation.jpg";
-import consume from "../../assets/consume.jpg";
+import donation from "../../assets/images (1).jpeg";
+import consume from "../../assets/download (2).png";
 import "../../index.css";
 import sustainable from "../../assets/sustainable.jpg";
 import poverty from "../../assets/goal01-nopoverty.webp";
