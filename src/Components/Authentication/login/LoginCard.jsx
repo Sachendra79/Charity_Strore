@@ -92,9 +92,7 @@ return(
              style={boxStyle}
               />
             <div className="emailText">Username</div>
-            <div className="forgetText" onClick={forgetHandler}>
-        Forgot Username?
-        </div>
+            
         {isClicked && error ? <div className="errorMsg">{error.message}</div> : null}
         </div>
         
