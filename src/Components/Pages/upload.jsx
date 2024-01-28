@@ -23,7 +23,7 @@ export default function Upload() {
   const [fullItemDetails, setFullItemDetails] = useState({
     name: "",
     itemname: "",
-    category: "",
+    category: "Daily Basis",
     image_field: null,
     description: "",
   });
