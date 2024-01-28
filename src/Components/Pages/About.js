@@ -22,7 +22,7 @@ const About = () => {
               </Link>
             </li>
             <li>
-              <Link to="/profile">Profile</Link>
+              <Link to="/userSection">Upload</Link>
             </li>
             <li>
               <Link to="/faq">FAQs</Link>

@@ -63,12 +63,10 @@ export default function Otp(props) {
         const isLogged = JSON.parse(localStorage.getItem('isLogged'));
         const authTok = JSON.parse(localStorage.getItem('authTok'));
        console.log(response.data)
-               if(response.data.data.is_login){
+              
                 Navigation("/home")
-               }
-               else{
-                Navigation('/language');
-               }
+               
+               
         
       } else {
         setClicker(true);

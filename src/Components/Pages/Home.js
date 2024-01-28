@@ -49,7 +49,7 @@ const Home = () => {
               </NavLink>
             </li>
             <li>
-              <NavLink to="/profile">Profile</NavLink>
+              <NavLink to="/userSection">Upload</NavLink>
             </li>
             <li>
               <NavLink to="/faq">FAQs</NavLink>
@@ -72,7 +72,7 @@ const Home = () => {
               <div>
                 <p className="paragraph font-semibold leading-8 text-2xl text-[#466c17]">
                   {" "}
-                  By donating unused items, you contribute to a sustainable and
+                  By sharing unused items, you contribute to a sustainable and
                   ethical cycle. Your support fosters a culture of conscious
                   living, reducing waste and promoting a greener, more
                   responsible future. Join us in making a positive impact on the
@@ -97,7 +97,7 @@ const Home = () => {
               <div>
                 <p className="paragraph font-semibold leading-8 text-2xl text-[#466c17] ml-5 animate-slide-in">
                   {" "}
-                  By donating unused items, you contribute to a sustainable and
+                  By Sharing unused items, you contribute to a sustainable and
                   ethical cycle. Your support fosters a culture of conscious
                   living, reducing waste and promoting a greener, more
                   responsible future. Join us in making a positive impact on the
