@@ -27,7 +27,7 @@ const Item = () => {
 
       <div className="grid grid-cols-2 h-[50vh] text-[#000]">
         <div className=" flex items-center ml-20">
-          <img className="w-[25vw] rounded-xl" src={items.image_field} />
+          <img className="w-[25vw] h-[30vh] rounded-xl" src={items.image_field} />
         </div>
         <div className="flex flex-col gap-20 mt-14 bg-[#fff] h-[35vh] rounded-xl">
           <h1 className="ml-5">{items.itemname}</h1>
