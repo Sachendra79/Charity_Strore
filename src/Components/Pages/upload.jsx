@@ -61,7 +61,7 @@ export default function Upload() {
     const formData = new FormData();
     formData.append('name', fullItemDetails.name);
     formData.append('itemname', fullItemDetails.itemname);
-    formData.append('category', "Education");
+    formData.append('category',fullItemDetails.category );
     formData.append('image_field', fullItemDetails.image_field);
     formData.append('description', fullItemDetails.description);
    
@@ -75,6 +75,12 @@ const response = await axios.post("https://auth-api-jexl.onrender.com/category/u
      catch(error){
  console.log(error)
      }
+  }
+  const handleCategoryChange = (e)=>{
+    setFullItemDetails((prevData) => ({
+      ...prevData,
+      category: e.target.value,
+    }));
   }
 
   return (
@@ -168,7 +174,21 @@ const response = await axios.post("https://auth-api-jexl.onrender.com/category/u
         ) : null}
         {detailsUpload && !descrUpload ? (
           <div className="upload1">
-            <div>Enter description of Item </div>
+            <div className=" flex flex-col gap-[10px]"><div>Enter description and choose Category.</div>
+            <div><select
+            className="bg-white p-2 rounded-md"
+            onChange={handleCategoryChange}
+          >
+            
+            <option value="Education">Education</option>
+            <option value="Daily Basis">Daily Basis</option>
+            <option value="Decoration">Decoration</option>
+            <option value="Kitchen">Kitchen</option>
+            <option value="Furniture">Furniture</option>
+            <option value="Footwear">Footwear</option>
+          </select></div> 
+            </div>
+            
             <div>
               <input
                 placeholder="Enter Description"
