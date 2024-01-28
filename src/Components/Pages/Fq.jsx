@@ -6,20 +6,25 @@ import FAQ from "./FAQ";
 export default function Fq() {
   const [faqs, setFaqs] = useState([
     {
-      question: "How many programmers does it take to screw a lightbulb?",
+      question: " How can a website support sustainable development awareness?",
       answer:
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pharetra lorem eu dolor rhoncus, at scelerisque ligula gravida. Sed porta id mi sit amet convallis. Etiam iaculis massa sit amet lacus blandit sodales. Nulla ultrices velit a diam placerat congue. Pellentesque iaculis, ipsum quis eleifend dapibus, est dui eleifend ante, quis fermentum mi ligula quis nisl. Ut et ex dui. Integer id venenatis quam.",
+        "Websites can share educational content, highlight sustainable initiatives, and provide resources for individuals and businesses to adopt sustainable practices. Engaging visuals and interactive content can enhance awareness.",
       open: true
     },
     {
-      question: "Who is the most awesome person?",
-      answer: "You! The viewer!",
+      question: "Why is biodiversity important for sustainable development?",
+      answer: "Biodiversity is crucial for ecosystem stability, food security, and adaptation to climate change. Protecting diverse plant and animal species is integral to maintaining a healthy and resilient planet",
       open: false
     },
     {
       question:
-        "How many questions does it take to makes a succesful FAQ Page?",
-      answer: "This many!",
+        "How can I practice responsible consumption in my daily life?",
+      answer: "T: You can practice responsible consumption by choosing sustainable products, reducing waste, recycling, supporting ethical brands, and being mindful of your ecological footprint.",
+      open: false
+    },{
+      question:
+        "How does responsible consumption contribute to global sustainability goals?",
+      answer: "Responsible consumption aligns with global sustainability goals by promoting eco-friendly practices, reducing carbon footprints, and supporting fair labor conditions, contributing to a more sustainable and equitable world.",
       open: false
     }
   ]);

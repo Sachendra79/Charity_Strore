@@ -66,8 +66,8 @@ export default function Upload() {
     formData.append('description', fullItemDetails.description);
    
      try{
-const resposnse = await axios.post("https://auth-api-jexl.onrender.com/category/upload-image/",formData)
-       if(Response.data){
+const response = await axios.post("https://auth-api-jexl.onrender.com/category/upload-image/",formData)
+       if(response.data){
         toast("Successfully Added product")
         Navigation("/home")
        }
